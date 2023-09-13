@@ -1,0 +1,21 @@
+{
+    "name": "mirrida/events",
+    "description": "Events system for PHP.",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "Mirrida\\Events\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bobby Benson",
+            "email": "radynje@gmail.com"
+        }
+    ],
+    "require": {
+        "mirrida/patterns": "^0.0.1"
+    }
+}
